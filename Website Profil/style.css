@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  color: #202020;
+  text-align: center;
+  margin: 0 0 80px;
+  width: 500;
+}
+
+/* Navigasi */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 10px 5%;
+  box-shadow: 2px 0 2px #235763;
+  //background-color: #202020;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 32pt;
+}
+
+nav ul {
+  list-style: none;
+}
+
+.logo {
+  color: #235763;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  margin: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #235763;
+  opacity: 0.6;
+}
+
+nav ul li a:hover {
+  opacity: 1;
+}
+
+.active {
+  color: #235763;
+  font-weight: bold;
+  opacity: 1;
+}
+
+/* Kenalan */
+section {
+  padding: 40px 10% 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  //background-color: #f2f2f2;
+}
+
+.foto {
+  width: 300px;
+  height: auto;
+  position: static;
+  //background: white;
+}
+
+.text-container {
+  position: relative;
+  //background: white;
+}
+
+.text-container p {
+  margin: 50px 0px 50px;
+  line-height: 0px;
+}
+
+.text-container p:nth-child(1) {
+  font-weight: bold;
+  font-size: 32px;
+  color: #202020;
+}
+
+.text-container p:nth-child(2) {
+  font-weight: bold;
+  color: #235763;
+  font-size: 40px;
+}
+
+.text-container p:nth-child(3) {
+  font-size: 20px;
+  color: #202020;
+}
+
+.text-container a {
+  color: #202020;
+  font-size: 20px;
+}
+
+.text-container a:hover {
+  color: #235763;
+}
+
+/* Riwayat Pendidikan */
+.riwayat-pendidikan {
+  padding: 40px 10% 80px;
+  background-color: #f2f2f2;
+}
+
+.pendidikan {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  //border: 1px solid #aaa;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 5%;
+  background-color: white;
+}
+
+.box p {
+  margin: 20px;
+}
+
+.box p:nth-child(1) {
+  font-weight: bold;
+  font-size: 20px;
+  color: #235760;
+}
+
+.box p:nth-child(2) {
+  color: #202020;
+  font-size: 16px;
+}
+
+.box p:nth-child(3) {
+  font-size: 16px;
+  color: #202020;
+  opacity: 0.5;
+}
+
+/* Keterampilan */
+.keterampilan {
+  padding: 40px 5% 80px;
+  align-items: center;
+  //background-color: #f2f2f2;
+}
+
+.item-keterampilan {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  margin: 0 80px;
+}
+
+.item img {
+  width: 70;
+  height: 100%;
+}
+
+.item p:nth-child(2) {
+  style: none;
+  margin: 20px 0px;
+  opacity: 1;
+  font-size: 20px;
+}
+
+.item p {
+  color: #202020;
+  opacity: 0.6;
+}
+
+.item a {
+  color: #202020;
+  opacity: 0.7;
+  font-size: 16px;
+}
+
+.item a:hover {
+  color: #235763;
+  opacity: 2;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 10px 5%;
+  background-color: #235763;
+}
+
+footer p {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  opacity: 0.8;
+}
+
+footer a {
+  color: white;
+  opacity: 0.7;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+}
+
+footer ul li a {
+  margin: 15px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+footer ul li a:hover {
+  opacity: 2;
+  color: white;
+}
+
+footer ul li a svg {
+  height: 25px;
+}
